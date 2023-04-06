@@ -19,7 +19,7 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: aputra/nginx-private:v0.1.0
+          image: labi50/mginx:v0.1.0
           ports:
             - containerPort: 80
       imagePullSecrets:
